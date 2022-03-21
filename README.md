@@ -51,7 +51,10 @@ Exibição de todas as informações do filme, como a média dos votos no endpoi
 Listagem ordenadas por filmes mais votados em ordem alfabética no endpoint mostVoted
 
 
-Sugestões e melhorias:
+# Sugestões e melhorias:
 Criação de arquivos de configuração para o properties em casos específicos, gerenciamento de roles sem bloquear o swagger para facilitamento de permissões de acessos,
 definir estratégias para salvar e usar token em sessões ou em banco para não precisar autenticar, vincular voto ao usuario possibilitando tracking de anomalias, 
 verificar necessidade de verificação de "authenticidade" de campos, como o score dos votos, implementar response entity para padrão de respostas.
+
+# obs
+Não foi possível realizar a tempo os testes e verificar como implantar o docker, na categoria extras.
