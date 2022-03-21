@@ -61,7 +61,7 @@ public class MovieController {
         return movieService.getByActorMovie(actor, page, size);
     }
 
-    @PostMapping("/{username}")
+    @PostMapping("/username/{username}")
     public List<Integer> createMovies(
             @RequestBody MovieRequestDTO movieDTO, @PathVariable String username) {
         return movieService.createMovie(movieDTO, username);
