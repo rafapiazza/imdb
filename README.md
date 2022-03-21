@@ -16,16 +16,22 @@ A aplicação pode ser acessada via endpoint com a autenticação, mas recomendo
 Acessar http://localhost:8080/swagger-ui/index.html#/
 
 Realizar cadastro através do endpoint de registro
+
 Realizar login e copiar o token de resposta
+
 Pressionar o botão "Authorize" e colar o token
+
 Pronto, já está autorizado até a página ser recarregada
 
 # requisitos
 
 # user-controller /user (singular)
 Cadastro de usuários no endpoint register
+
 Edição de usuários no endpoint update
+
 Exclusão lógica no endpoint username (como não se trata de um delete, a optei por não expor semântica pesada)
+
 Listagem de usuário alfabética com opção de paginação no listUser
 
 # vote-controller /votes
@@ -33,10 +39,15 @@ Voto de usuários não admin são realizados no /username , passando score e mov
 
 # movie-controller /movies
 Cadastro para admin no enpoint username , passando titulo, generos, diretor e atores no corpo
+
 Listagem paginada de filmes por diretor no endpoint director
+
 Listagem paginada de filmes por genero no endpoint genre
+
 Listagem paginada de filmes por ator no endpoint actor
+
 Exibição de todas as informações do filme, como a média dos votos no endpoint title
+
 Listagem ordenadas por filmes mais votados em ordem alfabética no endpoint mostVoted
 
 
